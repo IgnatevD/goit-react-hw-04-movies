@@ -1,0 +1,28 @@
+/** @format */
+
+.oneActors {
+  border-top: black solid 2px;
+  padding-top: 5px;
+}
+.oneActors__li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.oneActors__img {
+  display: block;
+  background-color: cadetblue;
+  width: 100px;
+  height: 150px;
+  text-align: center;
+}
+.oneActors__title {
+  margin-left: 10px;
+}
+.oneActors__notFoto {
+  padding-top: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}

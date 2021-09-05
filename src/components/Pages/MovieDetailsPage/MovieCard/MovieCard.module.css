@@ -1,0 +1,45 @@
+/** @format */
+
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.allTitle {
+  margin-left: 20px;
+}
+
+.nav__card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card__img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.nav__item {
+  display: block;
+  cursor: pointer;
+  color: rgb(35, 10, 143);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav__item:hover,
+.nav__item:focus {
+  color: red;
+}
+
+.new__navItem {
+  color: rgb(105, 105, 240);
+}
+.list__genres {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.item__genres {
+  margin-right: 10px;
+}
+
+.item__title {
+  margin-bottom: 10px;
+}

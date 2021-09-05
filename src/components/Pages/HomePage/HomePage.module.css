@@ -1,0 +1,22 @@
+/** @format */
+
+.list__movies {
+  padding-top: 10px;
+}
+
+.item__link {
+  display: block;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: auto;
+}
+
+.item__movie:hover,
+.item__movie:hover .item__link,
+.item__movie:focus,
+.item__movie:focus .item__link {
+  background-color: rgb(46, 40, 51);
+  color: aliceblue;
+}

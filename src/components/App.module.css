@@ -1,0 +1,11 @@
+/** @format */
+
+.divConteiner {
+  display: block;
+  margin: auto 20px;
+}
+
+.navigation {
+  font-size: 24px;
+  background-color: black;
+}

@@ -1,0 +1,26 @@
+/** @format */
+
+.nav__link {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.nav__page {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 15px;
+  color: aliceblue;
+}
+
+.nav__page:hover,
+.nav__page:focus {
+  color: red;
+}
+
+.new__navLink {
+  color: rgb(105, 105, 240);
+}
