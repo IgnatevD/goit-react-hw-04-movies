@@ -46,7 +46,10 @@ const MovieDetailsPage = () => {
               to={{
                 pathname: `${url}/cast`,
                 state: {
-                  from: { label: "Назад на домашнюю страницу" },
+                  from: {
+                    location: history.location?.state?.from?.location,
+                    label: "Назад",
+                  },
                 },
               }}
               className={s.nav__item}
@@ -58,7 +61,10 @@ const MovieDetailsPage = () => {
               to={{
                 pathname: `${url}/reviews`,
                 state: {
-                  from: { label: "Назад на домашнюю страницу" },
+                  from: {
+                    location: history.location?.state?.from?.location,
+                    label: "Назад",
+                  },
                 },
               }}
               className={s.nav__item}
