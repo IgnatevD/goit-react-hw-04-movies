@@ -22,7 +22,7 @@ const HomePage = () => {
               to={{
                 pathname: `movies/${e.id}`,
                 state: {
-                  from: { location, label: "Назад на домашню старницу" },
+                  from: { location, label: "Назад на домашнюю старницу" },
                 },
               }}
               className={s.item__link}
